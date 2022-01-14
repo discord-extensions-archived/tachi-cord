@@ -11,9 +11,8 @@ git clone https://github.com/LuckFire/tachi-cord
 ```
 
 **[BetterDiscord](https://betterdiscord.app/)**
-<!-- your fault if you click one of these placeholder links :tf: -->
 - [Site Page (PENDING)]()
-- [Direct Download]()
+- [Direct Download](https://github.com/LuckFire/tachi-cord/releases/download/temp-bd-download/tachi-cord.theme.css)
 - [View Source](https://luckfire.github.io/tachi-cord/src/support/compiled.css)
 
 **Stylus**

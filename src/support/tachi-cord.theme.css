@@ -16,10 +16,8 @@
   
   
   [ --BASIC HOW-TO-- ]
-  Comments in SCSS use //, but you can also just use the default CSS comments. You
-  should use these to comment out the style that you are currently using in order
-  to disable it. After that, find the style that you want to enable by removing the
-  comment from it.
+  Find the current style that is in use, and comment it out. Afterwards, uncomment
+  the style that you wish to use.
 
   Please note that you CANNOT have two styles enabled, well you can but something
   probably will break if you do. Also, you HAVE to have a style enabled, otherwise

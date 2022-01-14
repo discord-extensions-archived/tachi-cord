@@ -83,5 +83,8 @@
     // embeds
     .embedFull-1HGV2S {
         border-color: var(--background-secondary);
+        .embedFieldValue-3EHtvR pre code {
+            background-color: var(--background-tertiary);
+        }
     }
 }
