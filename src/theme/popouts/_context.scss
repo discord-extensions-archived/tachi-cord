@@ -1,0 +1,38 @@
+.menu-1QACrS {
+    .item-1OdjEX.labelContainer-2vJzYL {
+        &.colorDefault-CDqZdO.focused-3qFvc8, &.colorDefault-CDqZdO:active {
+            background-color: hsla(var(--accent-brand));
+        }
+        &.colorDanger-3n-KnP {
+            color: hsla(var(--accent-red));
+        }
+        &.colorDanger-3n-KnP.focused-3qFvc8, &.colorDanger-3n-KnP:active {
+            color: white;
+            background-color: hsla(var(--accent-red));
+        }
+        &.colorBrand-3cPPsm {
+            color: hsla(var(--accent-brand));
+            &:active, &.focused-3qFvc8 {
+                color: white;
+            }
+        }
+
+        .checkbox-hADx5o {
+            color: hsla(var(--accent-brand));
+        }
+        &.focused-3qFvc8, &:active {
+            .checkbox-hADx5o {
+                color: white;
+            }
+            .check-3HZJs4 {
+                color: hsla(var(--accent-brand));
+            }
+        }
+    }
+    .bar-1Bhnl9 {
+        background-color: var(--background-secondary-alt);
+    }
+    .barFill-2Bh7CX {
+        background-color: hsla(var(--accent-brand));
+    }
+}

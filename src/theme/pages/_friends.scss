@@ -1,0 +1,44 @@
+#app-mount .container-2cd8Mz {
+    background-color: var(--background-primary);
+    .container-2oNtJn {
+        background-color: var(--searcharea-background);
+    }
+    // people
+    .peopleListItem-u6dGxF {
+        &:hover {
+            background-color: var(--background-secondary-alt);
+            .actionButton-3-B2x- {
+                background-color: var(--background-tertiary);
+            }
+        }
+        .actionButton-3-B2x- {
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    // activities
+    .scroller-hE2gWq {
+        border-left: none;
+    }
+    .wrapper-2RrXDg {
+        border-color: var(--background-secondary);
+        &:hover {
+            border-color: var(--background-secondary-alt);
+            background-color: var(--background-secondary-alt);
+            .inset-SbsSFp,
+            .section-3G9aLW {
+                background-color: var(--background-tertiary);
+            }
+        }
+        .inset-SbsSFp,
+        .section-3G9aLW {
+            background-color: var(--background-primary);
+        }
+    }
+    .applicationStreamingPreviewWrapper-7j27t8 {
+        background-color: var(--background-primary);
+    }
+    // add friends
+    .addFriendInputWrapper-kkoSV9:focus-within {
+        border-color: hsla(var(--accent-brand));
+    }
+}

@@ -1,0 +1,87 @@
+#app-mount {
+    .message-2CShn3:hover {
+        background-color: hsla(var(--accent-brand), 3.5%);
+    }
+    // mentions, replying, ephemeral
+    .mentioned-Tre-dv {
+        background-color: hsla(var(--accent-brand), 10%);
+        &:hover {
+            background-color: hsla(var(--accent-brand), 20%);
+        }
+        &::before {
+            background-color: hsla(var(--accent-brand));
+        }
+    }
+    .replying-eZ7p5z {
+        background-color: hsla(var(--accent-green), 10%);
+        &:hover {
+            background-color: hsla(var(--accent-green), 20%);
+        }
+        &::before {
+            background-color: hsla(var(--accent-green));
+        }
+    }
+    .ephemeral-2nDdnn {
+        background-color: hsla(var(--accent-blue), 10%);
+        &:hover {
+            background-color: hsla(var(--accent-blue), 20%);
+        }
+        &::before {
+            background-color: hsla(var(--accent-blue));
+        }
+    }
+    .wrapper-1ZcZW-.mention {
+        color: var(--text-normal);
+        background-color: hsla(var(--accent-brand), 35%);
+        &:hover {
+            color: white;
+            background-color: hsla(var(--accent-brand));
+        }
+    }
+    // border colors
+    .markup-eYLPri code,
+    .wrapperAudio-1Bzv_Z,
+    .textContainer-36wgKK, .footer-GXWBBp,
+    .attachment-1PZZB2 {
+        border-color: var(--background-secondary);
+    }
+    // invites
+    .guildIconImage-74OdmM {
+        background-color: var(--background-secondary-alt);
+    }
+    // reactions
+    .reaction-2A2y9y {
+        background-color: var(--background-secondary-alt);
+        &.reactionMe-3I9gFK {
+            border-color: hsla(var(--accent-brand));
+            background-color: hsla(var(--accent-brand), 5%);
+            .reactionCount-1zkLcN{
+                color: var(--text-normal);
+            }
+        }
+    }
+    // spoilers
+    .spoilerText-27bIiA.hidden-3B-Rum {
+        background-color: var(--background-tertiary);
+    }
+    // container shadows
+    .markup-eYLPri code,
+    .container-2sjPya {
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+    }
+    // content color
+    .markup-eYLPri code,
+    .embedFull-1HGV2S,
+    .wrapperAudio-1Bzv_Z,
+    .textContainer-36wgKK, .footer-GXWBBp,
+    .wrapper-1HIH0j {
+        background-color: var(--background-secondary-alt);
+    }
+    .textContainer-36wgKK {
+        border-bottom-color: var(--background-secondary-alt);
+    }
+    // embeds
+    .embedFull-1HGV2S {
+        border-color: var(--background-secondary);
+    }
+}

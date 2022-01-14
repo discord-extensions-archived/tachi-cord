@@ -1,0 +1,30 @@
+#app-mount .layer-86YKbF {
+    // close button
+    .container-O54IuJ {
+        .closeButton-PCZcma {
+            border-color: hsla(var(--accent-brand));
+            &:hover {
+                background-color: hsla(var(--accent-brand));
+            }
+        }
+        .keybind-13vtq8 {
+            color: hsla(var(--accent-brand));
+        }
+    }
+    // cards
+    .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .cardPrimaryOutline-1ofwVz, .codeRedemptionRedirect-3SBiCp {
+        border-color: var(--background-tertiary);
+        background-color: var(--background-tertiary);
+    }
+    // sliders
+    [class="bar-1Bhnl9"],
+    .markDash-yk2kJ- {
+        background-color: var(--background-accent);
+    }
+    .barFill-2Bh7CX {
+        background-color: hsla(var(--accent-brand));
+    }
+    .radioIconForeground-2BMavi {
+        color: hsla(var(--accent-brand));
+    }
+}

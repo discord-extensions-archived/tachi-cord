@@ -1,0 +1,139 @@
+#app-mount {
+    .scrollerSpacer-3AqkT9 { // gap above the text area
+        height: 5px;
+    }
+    .form-3gdLxP {
+        margin-bottom: -3px;
+        padding-top: 28px;
+        padding-right: 7px;
+        padding-left: 7px;
+        &::before {
+            top: 0;
+            width: 100%;
+            background: linear-gradient(180deg,rgba(54,57,63,0) 0,var(--background-primary));
+        }
+        .base-3bcbY3 {
+            bottom: 3px;
+        }
+        // text area
+        .channelTextArea-1FufC0, .scrollableContainer-15eg7h {
+            padding-right: 2px;
+            background-color: transparent;
+        }
+        .textArea-2CLwUE {
+            order: 1;
+            border-radius: 25px;
+            background-color: var(--channeltextarea-background);
+            > div {
+                padding-left: 15px;
+            }
+        }
+        // buttons
+        .inner-NQg18Y {
+            .attachWrapper-3slhXI {
+                order: 2;
+            }
+            .buttons-uaqb-5 {
+                order: 3;
+            }
+            button {
+                align-items: center;
+                justify-content: center;
+                margin-left: 7px;
+                width: 42px;
+                height: 42px;
+                border-radius: 50px;
+                background-color: var(--channeltextarea-background);
+            }
+        }
+        .separator-3ng7S5::before {
+            display: none;
+        }
+        .buttonContainer-6W2Ep3 button {
+            margin-left: -5px;
+            margin-right: 5px;
+            background-color: transparent;
+            .innerButton-1aF_E_ {
+                margin-left: 7px;
+            }
+            .innerButton-1aF_E_::before {
+                z-index: -1;
+                position: absolute;
+                content: "";
+                left: 0;
+                width: 42px;
+                height: 42px;
+                border-radius: 50px;
+                background-color: hsla(var(--accent-brand));
+                transition: opacity 0.125s linear;
+            }
+            &[disabled] .innerButton-1aF_E_::before {
+                opacity: 0.5;
+            }
+            &:not([disabled]) {
+                transition: background-color 0.125s linear;
+                .innerButton-1aF_E_::before {
+                    opacity: 1;
+                    background-color: hsla(var(--accent-brand));
+                }
+                &:hover {
+                    background-color: hsla(var(--accent-hovered-brand));
+                }
+            }
+            .sendIcon-1HcEzu {
+                color: white !important;
+                transition: opacity 0.125s linear;
+            }
+            .disabled-3wvGkX .sendIcon-1HcEzu {
+                opacity: 0.5;
+            }
+            .activeButtonChild-2hgLAO .sendIcon-1HcEzu {
+                opacity: 1;
+            }
+        }
+        // attachments
+        .channelAttachmentArea-1wlgJV {
+            padding: 10px 10px 16px;
+        }
+        .divider-2rZFJK {
+            display: none;
+        }
+    }
+    // bars
+    .attachedBars-2BCP3l {
+        margin-top: -20px;
+        margin-bottom: 15px;
+        margin-left: -7px;
+        border-radius: 0;
+        background-color: var(--channeltextarea-background);
+    }
+    .replyBar-1oi75v {
+        border-radius: 0;
+        background-color: var(--channeltextarea-background);
+    }
+    .jumpToPresentBar-1cEnH0 {
+        justify-content: center;
+        left: calc(100% - 59px);
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        background-color: hsla(var(--accent-brand));
+        .barButtonMain-2GIx4o {
+            display: none;
+        }
+        .barButtonAlt-TQoCdZ {
+            font-size: 0;
+        }
+        .barButtonIcon-bMvzp2 {
+            top: 0;
+            margin-left: 0;
+            width: 30px;
+            height: 30px;
+        }
+        .spinner-2RT7ZC {
+            margin-left: 12px;
+        }
+    }
+}

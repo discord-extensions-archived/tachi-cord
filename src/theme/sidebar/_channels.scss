@@ -1,0 +1,20 @@
+.container-1-ERn5.hasBanner-2IrYih {
+    .bannerImage-ubW8K- {
+        &::after {
+            z-index: 100;
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 6rem;
+            width: 100%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--background-secondary));
+        }
+    }
+    .animatedContainer-2laTjx {
+        box-shadow: none;
+    }
+}
+.numberBadge-37OJ3S {
+    background-color: hsla(var(--accent-red)) !important;
+}

@@ -1,0 +1,148 @@
+/* [ THEME MODE SPECIFIC ] */
+.theme-dark {
+    --indicator-unread: 255, 255, 255;
+    --indicator-connected: 87, 242, 135;
+    --indicator-active: white;
+}
+.theme-light {
+    --indicator-unread: 0, 0, 0;
+    --indicator-connected: 65, 183, 102;
+    --indicator-active: black;
+}
+
+/* [ CUSTOMIZATION BASE ] */
+:root {
+    --indicator-border-info: solid 2px;
+    --indicator-rounding-info: 0 0px 0px 0;
+    --indicator-hovered: rgba(85, 90, 100, 0.25);
+    /* [ SELECTED ] */
+    --indicator-selected-border: hsla(var(--accent-brand));
+    --indicator-selected-icons: hsla(var(--accent-brand));
+    --indicator-selected-hover: hsla(var(--accent-brand), 0.18);
+    --indicator-selected-background: hsla(var(--accent-brand), 0.1);
+    /* [ UNREAD ] */
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+    --indicator-unread-icons: var(--indicator-unread-border);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.020);
+    /* [ CONNECTED ] */
+    --indicator-connected-border: hsla(var(--accent-green));;
+    --indicator-connected-icons: hsla(var(--accent-green));
+    --indicator-connected-hover: hsla(var(--accent-green), 0.18);
+    --indicator-connected-background: hsla(var(--accent-green), 0.1);
+}
+
+#app-mount {
+/* [ SETUP ] */
+    /* [ REMOVE OLD ] */
+    .wrapper-NhbLHG .content-1gYQeQ, .layout-1qmrhw {
+        background-color: transparent;
+    }
+    /* [ MAIN INDICATORS ] */
+    .wrapper-NhbLHG, .channel-1Shao0, .categoryItem-Kc_HK_ {
+        border-radius: var(--indicator-rounding-info);
+        &::before {
+            content: "";
+            border-left: var(--indicator-border-info) transparent;
+        }
+    }
+    .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0 {
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+    }
+    .categoryItem-Kc_HK_::before {
+        position: fixed;
+        margin-top: -1px;
+        height: 44px;
+    }
+
+/* [ INDICATORS ] */
+    /* [ HOVERED ] */
+    [class="iconVisibility-vptxma wrapper-NhbLHG"], .modeMuted-2T4MDZ, .modeUnread-3Cxepe,
+    .container-1oeRFJ.clickable-28SzVr {
+        &:hover {
+            background: var(--indicator-hovered);
+            div > svg {
+                color: var(--interactive-hover);
+            }
+        }
+    }
+    /* [ SELECTED ] */
+    .modeSelected-3DmyhH, .channel-1Shao0.selected-1-Z6gm, .selectedCategoryItem-ZjqSui {
+        background-color: var(--indicator-selected-background);
+        &:hover {
+            background-color: var(--indicator-selected-hover);
+        }
+        &::before {
+            border-left: var(--indicator-border-info) var(--indicator-selected-border);
+        }
+        .overflow-1wOqNV {
+            color: var(--indicator-active);
+        }
+        div > svg {
+            color: var(--indicator-selected-icons);
+        }
+    }
+    .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
+        color: var(--indicator-active);
+    }
+    /* [ UNREAD ] */
+    .modeUnread-3Cxepe {
+        background-color: var(--indicator-unread-background);
+        &::before {
+            border-left-color: var(--indicator-unread-border);
+        }
+        .overflow-1wOqNV {
+            color: var(--indicator-active);
+        }
+        .icon-2W8DHg, .actionIcon-2sw4Sl {
+            color: var(--indicator-unread-icons);
+        }
+        .unread-36eUEm {
+            display: none;
+        }
+    }
+    /* [ VOICE CONNECTED ] */
+    .modeConnected-NrO4cP {
+        background-color: var(--indicator-connected-background);
+        &:hover {
+            background-color: var(--indicator-connected-hover);
+        }
+        &::before {
+            border-left-color: var(--indicator-connected-border);
+        }
+        .overflow-1wOqNV {
+            color: var(--indicator-active);
+        }
+        // user limit
+        .userLimit-VbEkeM .wrapper-2fEmwW {
+            color: var(--indicator-active);
+            background-color: hsla(var(--accent-green), 0.4);
+
+            .users-2JoyGL {
+                background-color: transparent;
+            }
+            .total-1c5KCN {
+                background-color: hsla(var(--accent-green), 0.4);
+                &::after {
+                    border-right-color: hsla(var(--accent-green), 0.4);
+                }
+            }
+        }
+        .icon-2W8DHg, .actionIcon-2sw4Sl {
+            color: var(--indicator-connected-icons, rgba(var(--indicator-connected)));
+        }
+    }
+    /* [ ADJUSTMENTS ] */
+    .channel-1Shao0,
+    .categoryItem-Kc_HK_ {
+        margin-left: 0;
+        max-width: 100%;
+        .avatar-6qzftW {
+            margin-left: 8px;
+        }
+    }
+}

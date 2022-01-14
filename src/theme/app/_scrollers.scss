@@ -1,0 +1,18 @@
+.scrollerBase-_bVAAt {
+    &.thin-31rlnD {
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--scrollbar-thumb);
+        }
+    }
+    &.auto-2K3UW5 {
+        &::-webkit-scrollbar {
+            width: 12px;
+            &-thumb {
+                background-color: var(--scrollbar-thumb);
+            }
+            &-track {
+                background-color: var(--scrollbar-track);
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.scroller-3X7KbA {
+    .childWrapper-1j_1ub,
+    .circleIconButton-1VxDrg {
+        background-color: var(--background-secondary);
+    }
+    .circleIconButton-1VxDrg {
+        color: hsla(var(--accent-brand));
+    }
+    .circleIconButton-1VxDrg.selected-2r1Hvo {
+        color: white;
+        background-color: hsla(var(--accent-brand));
+    }
+    .wrapper-3kah-n {
+        &.selected-1Drb7Z, &:hover {
+            .childWrapper-1j_1ub {
+                background-color: hsla(var(--accent-brand));
+            }
+            rect {
+                fill: hsla(var(--accent-brand));;
+            }
+        }
+        rect {
+            fill: var(--background-secondary);
+        }
+    }
+    // badges
+    .upperBadge-1V6Iyi {
+        .participating-2Z81oO {
+            background-color: hsla(var(--accent-green));
+        }
+    }
+}

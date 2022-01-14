@@ -1,0 +1,45 @@
+#app-mount .container-ZMc96U {
+    &.themed-Hp1KC_ {
+        background-color: var(--background-secondary);
+    }
+    .children-3xh0VB:after {
+        background: linear-gradient(90deg,rgba(54,57,63,0) 0, var(--background-secondary));
+    }
+    .akaBadge-3i7V3p {
+        background-color: var(--tag-background);
+    }
+    .themed-2-lozF.item-3XjbnG {
+        border-radius: 25px;
+        &.selected-g-kMVV {
+            background-color: var(--tag-background) !important;
+        }
+    }
+    // add friends
+    [aria-controls="add_friend-tab"] {
+        &[aria-selected="false"] {
+            background-color: hsla(var(--accent-green)) !important;
+        }
+        &[aria-selected="true"] {
+            color: hsla(var(--accent-green)) !important;
+        }
+    }
+    // search
+    .searchBar-zdmu7v {
+        background-color: var(--searcharea-background);
+    }
+    .searchFilter-2UfsDk, .searchAnswer-23w-CH {
+        background-color: var(--tag-background);
+    }
+    // icons
+    .updateIconForeground-2V_zo4 {
+        fill: hsla(var(--accent-green));
+    }
+    .iconWrapper-2awDjA.selected-29KTGM {
+        svg {
+            color: hsla(var(--accent-brand));
+        }
+        &:hover svg {
+            color: hsla(var(--accent-hovered-brand));
+        }
+    }
+}

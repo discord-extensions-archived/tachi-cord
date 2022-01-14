@@ -1,0 +1,80 @@
+// accent buttons
+#app-mount {
+    .lookFilled-yCfaCM {
+        // brand
+        &.colorBrand-I6CyqQ, &.colorBrand-I6CyqQ:disabled, &.colorBrandNew-2-gGsS {
+            background-color: hsla(var(--accent-brand));
+        }
+        &.colorBrand-I6CyqQ:enabled:hover, &.colorBrandNew-2-gGsS:hover {
+            background-color: hsla(var(--accent-hovered-brand));
+        }
+        // warning
+        &.colorRed-rQXKgM {
+            background-color: hsla(var(--accent-red));
+            &:enabled:hover {
+                background-color: hsla(var(--accent-hovered-red));
+            }
+        }
+        // green
+        &.colorGreen-3y-Z79 {
+            background-color: hsla(var(--accent-green));
+            &:enabled:hover {
+                background-color: hsla(var(--accent-hovered-green));
+            }
+        }
+        // grey
+        &.colorGrey-2iAG-B,
+        &.colorPrimary-2AuQVo {
+            background-color: var(--accent-grey);
+            &:enabled:hover {
+                background-color: var(--accent-hovered-grey) !important;
+            }
+        }
+    }
+    .lookOutlined-3yKVGo {
+        // brand
+        &.colorBrand-I6CyqQ, &.colorBrand-I6CyqQ:disabled, &.colorBrandNew-2-gGsS {
+            border-color: hsla(var(--accent-brand));
+            color: hsla(var(--accent-brand));
+        }
+        // warning
+        &.colorRed-rQXKgM {
+            border-color: hsla(var(--accent-red));
+            color: hsla(var(--accent-red));
+        }
+    }
+    .button-1EGGcP .buttonColor-3bP3fX,
+    .button-1EGGcP.buttonColor-3bP3fX {
+        background-color: var(--accent-grey);
+        &:enabled:hover {
+            background-color: var(--accent-hovered-grey) !important;
+        }
+    }
+}
+
+// control buttons
+.control-1fl03-,
+.powercord-product-header [aria-label="Enable"], .powercord-product-header [aria-label="Disable"] {
+    margin-top: 7px;
+    .container-2nx-BQ {
+        width: 32px;
+        height: 11px;
+        background-color: #5c5c61 !important;
+        &[style="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] { 
+            background-color: hsla(var(--accent-brand), 30%) !important;
+            .slider-32CRPX {
+                background-color: hsla(var(--accent-brand));
+            }
+        }
+    }
+    .slider-32CRPX {
+        margin-top: -3px;
+        width: 17px;
+        height: 17px;
+        border-radius: 150px;
+        background-color: #b9b9b9;
+        * {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+[aria-label="USER_SETTINGS"] {
+    .selectedBackground-1qyzak {
+        background-color: hsla(var(--accent-brand));
+    }
+
+    .accountList-305sx3 {
+        background-color: var(--background-secondary);
+    }
+    .accountBtn-1YkMgV .accountBtnInner-3XK70s {
+        background-color: var(--background-secondary-alt);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
+    }
+    .connectionHeader-2rV1ze {
+        background-color: var(--background-tertiary);
+    }
+    .connection-107AGH {
+        background-color: var(--background-secondary);
+    }
+
+    .subscriptionsRedirectContainer-zD3U79,
+    .feature-2IUcBI {
+        background-color: var(--background-secondary);
+    }
+
+    .subscriptionRows-3rUeLf .tier1-314rFD.banner-oA34U0 {
+        background-image: linear-gradient(75deg,#a764ed,(#e292aa) 90%)
+    }
+
+    .paymentPane-ut5qKZ, .paginator-1eqD2g, .payment-2bOh4k {
+        background-color: var(--background-secondary);
+    }
+    .bottomDivider-ZmTm-j {
+        border-bottom-color: var(--background-primary);
+    }
+
+    .notches-2w7UZJ.gray-3wP137 {
+        background: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='%231B1A21'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E")
+    }
+
+    // this is used for theme info
+    .info-1sUqUG:last-child {
+        margin-left: -1px;
+        &::before { // also thanks Loremly for saving me time :WICKED:
+            content: "Tachi-cord Theme Info" "\aStyle: " var(--current-style) "\aVersion: " var(--current-version) "\a━━━━━━━━━━━━━━━\a Discord Client Info" !important;
+            position: relative;
+            width: 100%;
+            color: var(--text-muted);
+            white-space: pre-wrap;
+            text-transform: none;
+            line-height: 16px;
+            font-size: 12px;
+        }
+    }
+}
