@@ -324,6 +324,10 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--scrollbar-track);
 }
 
+#app-mount #MemberCount {
+    background-color: var(--background-primary);
+}
+
 .chat-2ZfjoI .newMessagesBar-1hF-9G {
     background-color: hsla(var(--accent-brand));
 }
