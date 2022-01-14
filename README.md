@@ -3,7 +3,7 @@
 # Tachi-Cord
 Styles that are inspired from Tachiyomi's color scheme, made for Discord.
 
-<!-- [!preview]({LINK}) -->
+![preview](https://raw.githubusercontent.com/LuckFire/tachi-cord/main/assets/README/preview.gif)
 # Installation
 For **[Powercord](http://powercord.dev/) / [Vizality](https://vizality.com/)**, head over to your **Themes folder -> open a terminal of choice**, and paste / enter the following:
 ```
