@@ -1,0 +1,38 @@
+/**
+    * @name Tachi-Cord
+    * @version 1.0.0d
+    * @description Styles that are inspired from Tachiyomi's color scheme, made for Discord.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/LuckFire/tachi-cord
+**/
+
+/*
+  [ --THEME STYLES-- ]
+  Below are the available styles that you can enable. Please make sure that you
+  comment out th current enabled style, then uncomment the style that you want
+  to enable.
+  
+  
+  [ --BASIC HOW-TO-- ]
+  Comments in SCSS use //, but you can also just use the default CSS comments. You
+  should use these to comment out the style that you are currently using in order
+  to disable it. After that, find the style that you want to enable by removing the
+  comment from it.
+
+  Please note that you CANNOT have two styles enabled, well you can but something
+  probably will break if you do. Also, you HAVE to have a style enabled, otherwise
+  stuff just completely breaks.
+*/
+@import url('https://luckfire.github.io/tachi-cord/styles/default.css');
+/* @import url('https://luckfire.github.io/tachi-cord/styles/midnight-dusk.css'); */
+/* @import url('https://luckfire.github.io/tachi-cord/styles/tako.css'); */
+
+
+/*
+  [ --MAIN SOURCE FILE-- ]
+  DO NOT REMOVE THIS. LITERALLY DO NOT. YOU WILL BREAK AND RUIN EVERYTHING!!!!
+  ok thank u.
+*/
+@import url('https://luckfire.github.io/tachi-cord/src/support/compiled.css');
