@@ -1,7 +1,7 @@
 :root {
-    /* [ THEME INFO ] */
+    /* [ --THEME INFO-- ] */
     --current-version: "1.0.0";
-    /* [ BASE ACCENTS ] */
+    /* [ --BASE ACCENTS-- ] */
     /* [ BLUE ] */
     --accent-blue: 222, calc(var(--saturation-factor, 1)*91%), 61%;
     /* [ GREEN ] */
@@ -10,8 +10,10 @@
     /* [ RED ] */
     --accent-red: 357, calc(var(--saturation-factor, 1)*87%), 58%;
     --accent-hovered-red: 357, calc(var(--saturation-factor, 1)*77%), 48%;
-    /* [ BASE TEXT ] */
+    /* [ --BASE TEXT-- ] */
     --text-link: hsla(var(--accent-blue));
+    /* [ --MISC-- ] */
+    --focus-primary: hsla(var(--accent-blue));
 }
 
 [aria-label=GUILD_SETTINGS] .tierHeaderUnlocked-1OpOLf, [aria-label=GUILD_SETTINGS] .tierHeaderLocked-30MLlO {
