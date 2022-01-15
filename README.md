@@ -23,6 +23,6 @@ git clone https://github.com/LuckFire/tachi-cord
 3. Press the "Install Style" button.
 
 # Switching Styles
-The theme offers 3 different styles: `Default`, `Midnight Dusk`, and `Tako`. Reason for this is because most of the other themes were default coloring but with different accent colors. I did not include legacy blue due to it being too annoying to get done properly.
+The theme offers 3 different styles: `Default`, `Midnight Dusk`, and `Tako`. Reason for this is because most of the other themes were default style coloring but with different accent colors. I did not include legacy blue due to it being too annoying to get done properly.
 - If you're a Powercord / Vizality user and would like to switch styles, head over to `./src/_style.scss`, disable the current style, and enable the desired style.
 - If you're a BetterDiscord user and would like to switch styles, open the theme file, disable the current style, and enable the desired style.
