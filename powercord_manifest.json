@@ -1,6 +1,6 @@
 {
     "name": "Tachi-Cord",
-    "description": "theme",
+    "description": "Styles that are inspired from Tachiyomi's color scheme, made for Discord.",
     "version": "1.0.0",
     "author": "LuckFire#4800",
     "theme": "/src/_index.scss",
