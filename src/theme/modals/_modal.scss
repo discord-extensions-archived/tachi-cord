@@ -29,4 +29,14 @@
     .selectorButtonSelected-3Z0WNU {
         background-color: hsla(var(--accent-brand));;
     }
+    // events
+    .card-8UsK4b {
+        background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    .rsvpCount-iCkObl {
+        background-color: var(--background-secondary);
+    }
 }

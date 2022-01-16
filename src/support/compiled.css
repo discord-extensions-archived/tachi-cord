@@ -360,7 +360,7 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 #app-mount .message-2CShn3:hover {
-    background-color: hsla(var(--accent-brand), 3.5%);
+    background-color: hsla(var(--accent-brand), 2.25%);
 }
 #app-mount .mentioned-Tre-dv {
     background-color: hsla(var(--accent-brand), 10%);
@@ -704,6 +704,15 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .root-g14mjS .selectorButtonSelected-3Z0WNU {
     background-color: hsla(var(--accent-brand));
+}
+#app-mount .root-g14mjS .card-8UsK4b {
+    background-color: var(--background-tertiary);
+}
+#app-mount .root-g14mjS .card-8UsK4b:hover {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .rsvpCount-iCkObl {
+    background-color: var(--background-secondary);
 }
 
 #app-mount .root-g14mjS .lookLink-15mFoz.colorPrimary-2AuQVo,
