@@ -92,7 +92,7 @@
     .modeUnread-3Cxepe {
         background-color: var(--indicator-unread-background);
         &::before {
-            border-left-color: var(--indicator-unread-border);
+            border-left: var(--indicator-border-info) var(--indicator-unread-border);
         }
         .overflow-1wOqNV {
             color: var(--indicator-active);
