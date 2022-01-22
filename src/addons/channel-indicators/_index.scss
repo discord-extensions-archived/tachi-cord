@@ -42,7 +42,6 @@
         border-radius: var(--indicator-rounding-info);
         &::before {
             content: "";
-            border-left: var(--indicator-border-info) transparent;
         }
     }
     .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0 {
@@ -62,7 +61,7 @@
 /* [ INDICATORS ] */
     /* [ HOVERED ] */
     [class="iconVisibility-vptxma wrapper-NhbLHG"], .modeMuted-2T4MDZ, .modeUnread-3Cxepe,
-    .container-1oeRFJ.clickable-28SzVr {
+    .container-1oeRFJ.clickable-28SzVr, .wrapper-NhbLHG {
         &:hover {
             background: var(--indicator-hovered);
             div > svg {
@@ -93,7 +92,7 @@
     .modeUnread-3Cxepe {
         background-color: var(--indicator-unread-background);
         &::before {
-            border-left-color: var(--indicator-unread-border);
+            border-left: var(--indicator-border-info) var(--indicator-unread-border);
         }
         .overflow-1wOqNV {
             color: var(--indicator-active);
