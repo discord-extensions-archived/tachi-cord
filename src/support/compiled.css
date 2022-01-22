@@ -966,7 +966,6 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before, #app-mount .categoryItem-Kc_HK_::before {
     content: "";
-    border-left: var(--indicator-border-info) transparent;
 }
 #app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before {
     position: absolute;
@@ -1009,7 +1008,7 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--indicator-unread-background);
 }
 #app-mount .modeUnread-3Cxepe::before {
-    border-left-color: var(--indicator-unread-border);
+    border-left: var(--indicator-border-info) var(--indicator-unread-border);
 }
 #app-mount .modeUnread-3Cxepe .overflow-1wOqNV {
     color: var(--indicator-active);
