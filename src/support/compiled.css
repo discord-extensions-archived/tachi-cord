@@ -958,17 +958,17 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     --indicator-connected-background: hsla(var(--accent-green), 0.1);
 }
 
-#app-mount .wrapper-NhbLHG .content-1gYQeQ, #app-mount .layout-1qmrhw {
+#app-mount .wrapper-NhbLHG .content-1gYQeQ, #app-mount .layout-1qmrhw, #app-mount .layout-1LjVue, #app-mount .container-32HW5s {
     background-color: transparent;
 }
-#app-mount .wrapper-NhbLHG, #app-mount .channel-1Shao0, #app-mount .categoryItem-Kc_HK_ {
+#app-mount .wrapper-NhbLHG, #app-mount .channel-1Shao0, #app-mount .categoryItem-Kc_HK_, #app-mount .layout-1LjVue, #app-mount .container-32HW5s {
     border-radius: var(--indicator-rounding-info);
 }
 #app-mount .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before, #app-mount .categoryItem-Kc_HK_::before {
     content: "";
     border-left: var(--indicator-border-info) transparent;
 }
-#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before {
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before, .layout-1LjVue::before, .container-32HW5s::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -979,8 +979,12 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     margin-top: -1px;
     height: 44px;
 }
+
+#app-mount .layout-1LjVue {
+    padding: 0 16px;
+}
 #app-mount [class="iconVisibility-vptxma wrapper-NhbLHG"]:hover, #app-mount .modeMuted-2T4MDZ:hover, #app-mount .modeUnread-3Cxepe:hover,
-#app-mount .container-1oeRFJ.clickable-28SzVr:hover {
+#app-mount .container-1oeRFJ.clickable-28SzVr:hover, .interactive-1vLZ_I.interactive-iyXY_x.selected-3veCBZ:hover, .container-1oeRFJ.clickable-28SzVr:hover {
     background: var(--indicator-hovered);
 }
 #app-mount [class="iconVisibility-vptxma wrapper-NhbLHG"]:hover div > svg, #app-mount .modeMuted-2T4MDZ:hover div > svg, #app-mount .modeUnread-3Cxepe:hover div > svg,
@@ -993,7 +997,7 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .modeSelected-3DmyhH:hover, #app-mount .channel-1Shao0.selected-1-Z6gm:hover, #app-mount .selectedCategoryItem-ZjqSui:hover {
     background-color: var(--indicator-selected-hover);
 }
-#app-mount .modeSelected-3DmyhH::before, #app-mount .channel-1Shao0.selected-1-Z6gm::before, #app-mount .selectedCategoryItem-ZjqSui::before {
+#app-mount .modeSelected-3DmyhH::before, #app-mount .channel-1Shao0.selected-1-Z6gm::before, #app-mount .selectedCategoryItem-ZjqSui::before, #app-mount .interactive-1vLZ_I.interactive-iyXY_x.selected-3veCBZ > #app-mount .layout-1LjVue::before {
     border-left: var(--indicator-border-info) var(--indicator-selected-border);
 }
 #app-mount .modeSelected-3DmyhH .overflow-1wOqNV, #app-mount .channel-1Shao0.selected-1-Z6gm .overflow-1wOqNV, #app-mount .selectedCategoryItem-ZjqSui .overflow-1wOqNV {
@@ -1005,10 +1009,10 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
     color: var(--indicator-active);
 }
-#app-mount .modeUnread-3Cxepe {
+#app-mount .modeUnread-3Cxepe, .highlighted-Q8Nll- {
     background-color: var(--indicator-unread-background);
 }
-#app-mount .modeUnread-3Cxepe::before {
+#app-mount .modeUnread-3Cxepe::before, .highlighted-Q8Nll-::before {
     border-left-color: var(--indicator-unread-border);
 }
 #app-mount .modeUnread-3Cxepe .overflow-1wOqNV {
