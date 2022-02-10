@@ -34,18 +34,18 @@
 #app-mount {
 /* [ SETUP ] */
     /* [ REMOVE OLD ] */
-    .wrapper-NhbLHG .content-1gYQeQ, .layout-1qmrhw {
+    .wrapper-NhbLHG .content-1gYQeQ, .layout-1LjVue, .container-32HW5s {
         background-color: transparent;
     }
     /* [ MAIN INDICATORS ] */
-    .wrapper-NhbLHG, .channel-1Shao0, .categoryItem-Kc_HK_ {
+    .wrapper-NhbLHG, .channel-1Shao0, .categoryItem-Kc_HK_, .layout-1LjVue, .container-32HW5s {
         border-radius: var(--indicator-rounding-info);
         &::before {
             content: "";
             border-left: var(--indicator-border-info) transparent;
         }
     }
-    .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0 {
+    .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0, .layout-1LjVue, .container-32HW5s {
         &::before {
             position: absolute;
             top: 0;
@@ -58,11 +58,14 @@
         margin-top: -1px;
         height: 44px;
     }
+    .layout-1LjVue {
+        padding: 0 16px;
+    }
+
 
 /* [ INDICATORS ] */
     /* [ HOVERED ] */
-    [class="iconVisibility-vptxma wrapper-NhbLHG"], .modeMuted-2T4MDZ, .modeUnread-3Cxepe,
-    .container-1oeRFJ.clickable-28SzVr {
+    [class="iconVisibility-vptxma wrapper-NhbLHG"], .modeMuted-2T4MDZ, .modeUnread-3Cxepe, .interactive-1vLZ_I.interactive-iyXY_x.selected-3veCBZ .container-1oeRFJ.clickable-28SzVr, .wrapper-NhbLHG {
         &:hover {
             background: var(--indicator-hovered);
             div > svg {
@@ -71,12 +74,15 @@
         }
     }
     /* [ SELECTED ] */
-    .modeSelected-3DmyhH, .channel-1Shao0.selected-1-Z6gm, .selectedCategoryItem-ZjqSui {
+    .modeSelected-3DmyhH, .channel-1Shao0.selected-1-Z6gm, .selectedCategoryItem-ZjqSui, .interactive-1vLZ_I.interactive-iyXY_x.selected-3veCBZ {
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover);
         }
         &::before {
+            border-left: var(--indicator-border-info) var(--indicator-selected-border);
+        }
+        .layout-1LjVue::before {
             border-left: var(--indicator-border-info) var(--indicator-selected-border);
         }
         .overflow-1wOqNV {
@@ -90,7 +96,7 @@
         color: var(--indicator-active);
     }
     /* [ UNREAD ] */
-    .modeUnread-3Cxepe {
+    .modeUnread-3Cxepe, .highlighted-Q8Nll- {
         background-color: var(--indicator-unread-background);
         &::before {
             border-left-color: var(--indicator-unread-border);
