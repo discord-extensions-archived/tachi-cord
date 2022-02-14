@@ -1,6 +1,6 @@
 :root {
     /* [ --THEME INFO-- ] */
-    --current-version: "1.0.0";
+    --current-version: "1.0.1";
     /* [ --BASE ACCENTS-- ] */
     /* [ BLUE ] */
     --accent-blue: 222, calc(var(--saturation-factor, 1)*91%), 61%;
@@ -961,13 +961,13 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .wrapper-NhbLHG .content-1gYQeQ, #app-mount .layout-1qmrhw {
     background-color: transparent;
 }
-#app-mount .wrapper-NhbLHG, #app-mount .channel-1Shao0, #app-mount .categoryItem-Kc_HK_ {
+#app-mount .wrapper-NhbLHG, #app-mount .channel-1Shao0 .interactive-1vLZ_I, #app-mount .categoryItem-Kc_HK_ {
     border-radius: var(--indicator-rounding-info);
 }
-#app-mount .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before, #app-mount .categoryItem-Kc_HK_::before {
+#app-mount .wrapper-NhbLHG::before, #app-mount .channel-1Shao0 .interactive-1vLZ_I::before, #app-mount .categoryItem-Kc_HK_::before {
     content: "";
 }
-#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before, #app-mount .channel-1Shao0::before {
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before, #app-mount .channel-1Shao0 .interactive-1vLZ_I::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -979,26 +979,26 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     height: 44px;
 }
 #app-mount [class="iconVisibility-vptxma wrapper-NhbLHG"]:hover, #app-mount .modeMuted-2T4MDZ:hover, #app-mount .modeUnread-3Cxepe:hover,
-#app-mount .container-1oeRFJ.clickable-28SzVr:hover {
+#app-mount .container-1oeRFJ.clickable-28SzVr:hover, #app-mount .wrapper-NhbLHG:hover {
     background: var(--indicator-hovered);
 }
 #app-mount [class="iconVisibility-vptxma wrapper-NhbLHG"]:hover div > svg, #app-mount .modeMuted-2T4MDZ:hover div > svg, #app-mount .modeUnread-3Cxepe:hover div > svg,
-#app-mount .container-1oeRFJ.clickable-28SzVr:hover div > svg {
+#app-mount .container-1oeRFJ.clickable-28SzVr:hover div > svg, #app-mount .wrapper-NhbLHG:hover div > svg {
     color: var(--interactive-hover);
 }
-#app-mount .modeSelected-3DmyhH, #app-mount .channel-1Shao0.selected-1-Z6gm, #app-mount .selectedCategoryItem-ZjqSui {
+#app-mount .modeSelected-3DmyhH, #app-mount .interactive-1vLZ_I.selected-3veCBZ, #app-mount .selectedCategoryItem-ZjqSui {
     background-color: var(--indicator-selected-background);
 }
-#app-mount .modeSelected-3DmyhH:hover, #app-mount .channel-1Shao0.selected-1-Z6gm:hover, #app-mount .selectedCategoryItem-ZjqSui:hover {
+#app-mount .modeSelected-3DmyhH:hover, #app-mount .interactive-1vLZ_I.selected-3veCBZ:hover, #app-mount .selectedCategoryItem-ZjqSui:hover {
     background-color: var(--indicator-selected-hover);
 }
-#app-mount .modeSelected-3DmyhH::before, #app-mount .channel-1Shao0.selected-1-Z6gm::before, #app-mount .selectedCategoryItem-ZjqSui::before {
+#app-mount .modeSelected-3DmyhH::before, #app-mount .interactive-1vLZ_I.selected-3veCBZ::before, #app-mount .selectedCategoryItem-ZjqSui::before {
     border-left: var(--indicator-border-info) var(--indicator-selected-border);
 }
-#app-mount .modeSelected-3DmyhH .overflow-1wOqNV, #app-mount .channel-1Shao0.selected-1-Z6gm .overflow-1wOqNV, #app-mount .selectedCategoryItem-ZjqSui .overflow-1wOqNV {
+#app-mount .modeSelected-3DmyhH .overflow-1wOqNV, #app-mount .interactive-1vLZ_I.selected-3veCBZ .overflow-1wOqNV, #app-mount .selectedCategoryItem-ZjqSui .overflow-1wOqNV {
     color: var(--indicator-active);
 }
-#app-mount .modeSelected-3DmyhH div > svg, #app-mount .channel-1Shao0.selected-1-Z6gm div > svg, #app-mount .selectedCategoryItem-ZjqSui div > svg {
+#app-mount .modeSelected-3DmyhH div > svg, #app-mount .interactive-1vLZ_I.selected-3veCBZ div > svg, #app-mount .selectedCategoryItem-ZjqSui div > svg {
     color: var(--indicator-selected-icons);
 }
 #app-mount .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
@@ -1052,7 +1052,11 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     margin-left: 0;
     max-width: 100%;
 }
-#app-mount .channel-1Shao0 .avatar-6qzftW,
-#app-mount .categoryItem-Kc_HK_ .avatar-6qzftW {
+#app-mount .channel-1Shao0 .avatar-1HDIsL,
+#app-mount .categoryItem-Kc_HK_ .avatar-1HDIsL {
     margin-left: 8px;
+}
+#app-mount .channel-1Shao0 .interactive-1vLZ_I {
+    margin-top: -1px;
+    margin-bottom: -1px;
 }
