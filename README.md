@@ -1,4 +1,5 @@
-<!-- [!banner]({LINK}) -->
+# NO LONGER MAINTAINED
+I was supposed to rework this but never got around to it and I most likely never will. Anyone is free to maintain this (as long as they follow the licensing of course).
 
 # Tachi-Cord
 Styles that are inspired from Tachiyomi's color scheme, made for Discord.
